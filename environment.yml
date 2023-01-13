@@ -26,6 +26,6 @@ dependencies:
   - black
   - pyviz_comms
   - openpyxl
-  - tzdata
+  - python-tzdata
   - httpx
   - xarray
