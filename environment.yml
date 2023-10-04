@@ -9,6 +9,7 @@ dependencies:
   - seaborn
   - plotnine
   - pandas
+  - numexpr
   # - statsmodels
   # - scikit-learn
   # - scipy
