@@ -8,3 +8,4 @@ dependencies:
   - pip:
     - jupyterlite===0.2.0a4
     - jupyterlite-xeus-python==1.0.0a0
+    - jupyterlite_javascript_kernel===0.2.0a4
