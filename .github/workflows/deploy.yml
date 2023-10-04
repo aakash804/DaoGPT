@@ -31,7 +31,6 @@ jobs:
           # now called cache-environment
           cache-environment: true
       - name: Build the JupyterLite site
-        shell: bash {0}
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
