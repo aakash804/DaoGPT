@@ -9,7 +9,7 @@ dependencies:
   - seaborn
   - plotnine
   - pandas
-  - numexpr
+  # - numexpr This one has no available package!
   # - statsmodels
   # - scikit-learn
   # - scipy
