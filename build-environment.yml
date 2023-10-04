@@ -4,7 +4,7 @@ channels:
 dependencies:
   - python
   - pip
-  - jupyter_server
+  - jupyterlab >=4.0.5,<5.0
   - pip:
     - jupyterlite===0.2.0a4
     - jupyterlite-xeus-python==1.0.0a0
