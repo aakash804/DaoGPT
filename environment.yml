@@ -9,23 +9,23 @@ dependencies:
   - seaborn
   - plotnine
   - pandas
-  - statsmodels
-  - scikit-learn
-  - scipy
-  - sqlite
-  - bokeh
-  - panel
-  - altair
-  - ipympl
-  - ipyleaflet
-  - ipydatagrid
-  - ipycanvas
-  - vega_datasets
-  - plotly
-  - bqplot
-  - black
-  - pyviz_comms
-  - openpyxl
-  - python-tzdata
-  - httpx
-  - xarray
+  # - statsmodels
+  # - scikit-learn
+  # - scipy
+  # - sqlite
+  # - bokeh
+  # - panel
+  # - altair
+  # - ipympl
+  # - ipyleaflet
+  # - ipydatagrid
+  # - ipycanvas
+  # - vega_datasets
+  # - plotly
+  # - bqplot
+  # - black
+  # - pyviz_comms
+  # - openpyxl
+  # - python-tzdata
+  # - httpx
+  # - xarray
