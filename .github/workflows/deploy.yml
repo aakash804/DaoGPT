@@ -26,13 +26,14 @@ jobs:
           micromamba-version: '1.5.0-0'
           environment-file: build-environment.yml
           cache-environment: true
+          generate-run-shell: true
 
       - name: Build the JupyterLite site
-        shell: bash
+        shell: micromamba-shell {0}
         run: |
           cp README.md content
           jupyter lite build --contents content --output-dir dist
-
+        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
