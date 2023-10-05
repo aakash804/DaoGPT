@@ -9,6 +9,11 @@ dependencies:
   - seaborn
   - plotnine
   - pandas
+  - multidict
+  - tornado
+  - aiohttp
+  - langchain
+  - jupyter-ai
   # - numexpr This one has no available package!
   # - statsmodels
   # - scikit-learn
