@@ -32,6 +32,7 @@ jobs:
         shell: micromamba-shell {0}
         run: |
           cp README.md content
+          python -m pip install multidict tornado aiohttp langchain --no-binary :all:
           jupyter lite build --contents content --output-dir dist
         
       - name: Upload artifact
