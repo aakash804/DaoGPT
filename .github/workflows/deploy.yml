@@ -33,6 +33,7 @@ jobs:
         run: |
           cp README.md content
           python -m pip install multidict tornado aiohttp langchain --no-binary :all:
+          python -m pip install -r requirements.txt
           jupyter lite build --contents content --output-dir dist
         
       - name: Upload artifact
