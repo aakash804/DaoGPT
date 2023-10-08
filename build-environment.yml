@@ -1,4 +1,4 @@
-name: build-env
+name: xeus-python-kernel
 channels:
   - conda-forge
   - https://repo.mamba.pm/emscripten-forge
@@ -12,5 +12,20 @@ dependencies:
     - jupyterlite-xeus-python==1.0.0a0
     - jupyterlite_javascript_kernel===0.2.0b1
     - jupyterlite_pyodide_kernel===0.2.0a2
-    - jupyter-ai
+    - ipycanvas
+    - numpy
+    - matplotlib
+    - seaborn
+    - plotnine
+    - pandas
+    - ipywidgets
+    - jupyterlab-visualpython
+    - ./multidict-6.0.4-py3-none-any.whl
+    - ./tornado-6.3.3-py3-none-any.whl
+    - ./frozenlist-1.4.0-py3-none-any.whl
+    - ./aiohttp-3.8.5-py3-none-any.whl
+    - langchain==0.0.309
+    - ./jupyter_ai_magics-2.2.0-py3-none-any.whl
+    - ./jupyter_ai_monorepo-2.2.0-py3-none-any.whl
+    - jupyter_ai
     - chapyter
