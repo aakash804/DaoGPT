@@ -10,7 +10,7 @@ dependencies:
   - plotnine
   - pandas
   - ipywidgets
-  - yarl
+  # - yarl
   - ply
   
   - pip:
