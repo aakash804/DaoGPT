@@ -35,7 +35,7 @@ jobs:
           python -m pip install multidict tornado aiohttp langchain --no-binary :all:
           python -m pip install -r requirements.txt
           jupyter lite build --contents content --output-dir dist
-        
+          jupyter labextension list
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
