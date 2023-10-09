@@ -13,6 +13,7 @@ dependencies:
   # - yarl
   - ply
   - pygtrie
+  - tenacity
   - pip:
     - jsonpath-ng
     - ipycanvas
