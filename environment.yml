@@ -31,7 +31,7 @@ dependencies:
     - chapyter
     - jupyter_ai
     - nest_asyncio
-    = pydantic
+    - pydantic
   # - multidict
   # - tornado
   # - aiohttp
