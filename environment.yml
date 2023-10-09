@@ -11,6 +11,7 @@ dependencies:
   - pandas
   - ipywidgets
   - pip:
+    - jsonpath-ng
     - ipycanvas
     - jupyterlab-visualpython
     - './multidict-6.0.4-py3-none-any.whl'
