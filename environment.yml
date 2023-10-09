@@ -10,6 +10,9 @@ dependencies:
   - plotnine
   - pandas
   - ipywidgets
+  - yarl
+  - ply
+  
   - pip:
     - jsonpath-ng
     - ipycanvas
