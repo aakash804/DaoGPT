@@ -8,6 +8,7 @@ dependencies:
   - pip
   - jupyterlab >=4.0.5,<5.0
   - ply
+  - pygtrie
   - pip:
     - jupyterlite===0.2.0b1
     - jupyterlite-xeus-python==1.0.0a0
