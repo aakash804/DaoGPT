@@ -20,6 +20,7 @@ dependencies:
     - pandas
     - ipywidgets
     - jupyterlab-visualpython
+    - jsonpath-ng
     - './multidict-6.0.4-py3-none-any.whl'
     - './tornado-6.3.3-py3-none-any.whl'
     - './frozenlist-1.4.0-py3-none-any.whl'
