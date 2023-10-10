@@ -14,7 +14,7 @@ dependencies:
   - ply
   - pygtrie
   - tenacity
-  
+  - pydantic
   - pip:
     - jsonpath-ng
     - ipycanvas
@@ -33,7 +33,6 @@ dependencies:
     - chapyter
     - jupyter_ai
     - nest_asyncio
-    - pydantic
   # - multidict
   # - tornado
   # - aiohttp
