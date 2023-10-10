@@ -10,7 +10,7 @@ dependencies:
   - plotnine
   - pandas
   - ipywidgets
-  # - yarl
+  - yarl
   - ply
   - pygtrie
   - tenacity
@@ -33,6 +33,7 @@ dependencies:
     - chapyter
     - jupyter_ai
     - nest_asyncio
+    - yarl
   # - multidict
   # - tornado
   # - aiohttp
