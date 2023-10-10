@@ -39,3 +39,4 @@ dependencies:
     - chapyter
     - jupyter_ai
     - chapyter
+    - yarl
