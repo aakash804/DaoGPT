@@ -33,7 +33,7 @@ dependencies:
     - chapyter
     - jupyter_ai
     - nest_asyncio
-    - yarl
+    - './yarl-1.9.2-py3-none-any.whl'
   # - multidict
   # - tornado
   # - aiohttp
