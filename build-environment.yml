@@ -34,6 +34,8 @@ dependencies:
     - './jupyter_ai_magics-2.2.0-py3-none-any.whl'
     - './jupyter_ai_monorepo-2.2.0-py3-none-any.whl'
     - './guidance-0.0.64-py3-none-any.whl'
+    - AzureOpenAI
+    - OpenAI
     - chapyter
     - jupyter_ai
     - chapyter
