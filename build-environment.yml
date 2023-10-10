@@ -10,6 +10,7 @@ dependencies:
   - ply
   - pygtrie
   - tenacity
+  - pydantic
   - pip:
     - jupyterlite===0.2.0b1
     - jupyterlite-xeus-python==1.0.0a0
@@ -25,7 +26,6 @@ dependencies:
     - jupyterlab-visualpython
     - jsonpath-ng
     - nest_asyncio
-    - pydantic
     - './multidict-6.0.4-py3-none-any.whl'
     - './tornado-6.3.3-py3-none-any.whl'
     - './frozenlist-1.4.0-py3-none-any.whl'
