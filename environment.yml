@@ -10,7 +10,6 @@ dependencies:
   - plotnine
   - pandas
   - ipywidgets
-  - yarl
   - ply
   - pygtrie
   - tenacity
