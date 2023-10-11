@@ -17,6 +17,7 @@ dependencies:
   - idna
   - pip:
     - async_timeout
+    - charset-normalizer
     - jsonpath-ng
     - ipycanvas
     - jupyterlab-visualpython
