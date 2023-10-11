@@ -15,8 +15,8 @@ dependencies:
   - tenacity
   - pydantic
   - idna
-  - async_timeout
   - pip:
+    - async_timeout
     - jsonpath-ng
     - ipycanvas
     - jupyterlab-visualpython
