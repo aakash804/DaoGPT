@@ -15,6 +15,7 @@ dependencies:
   - tenacity
   - pydantic
   - idna
+  - async_timeout
   - pip:
     - jsonpath-ng
     - ipycanvas
