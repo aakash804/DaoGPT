@@ -16,7 +16,7 @@ dependencies:
   - pydantic
   - idna
   - pip:
-    - async_timeout
+    - './async_timeout-4.0.3-py3-none-any.whl'
     - charset-normalizer
     - jsonpath-ng
     - ipycanvas
