@@ -4,10 +4,10 @@ ipylab>=1.0
 ipyleaflet
 ipywidgets>=8.0
 jupyterlab_miami_nights>=0.4.0
-jupyterlab~=4.1.0a2
-jupyterlab-filesystem-access~=0.5.3
-jupyterlab-open-url-parameter~=0.1.0
-jupyterlab-plugin-playground~=0.4.0
+jupyterlab >=4.0.5,<5.0
+jupyterlab-filesystem-access>=0.5.3
+jupyterlab-open-url-parameter>=0.1.0
+jupyterlab-plugin-playground>=0.4.0
 jupyterlite-core==0.2.0b1
 jupyterlite-javascript-kernel==0.2.0b1
 jupyterlite-pyodide-kernel==0.2.0a2
@@ -20,11 +20,11 @@ notebook~=7.0.4
 jupyterlab-cell-flash
 jupyterlab-fasta>=3,<4
 jupyterlab-geojson>=3,<4
-plotly>=5,<6
+plotly>=5
 ./wheels/multidict-6.0.4-py3-none-any.whl
 ./wheels/tornado-6.3.3-py3-none-any.whl
 ./wheels/frozenlist-1.4.0-py3-none-any.whl
 ./wheels/aiohttp-3.8.5-py3-none-any.whl
 langchain==0.0.309
-./wheels/jupyter_ai_magics-2.2.0-py3-none-any.whl
-./wheels/jupyter_ai_monorepo-2.2.0-py3-none-any.whl
+jupyter_ai_magics
+jupyter_ai
