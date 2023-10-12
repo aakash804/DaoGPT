@@ -16,26 +16,26 @@ dependencies:
   - pydantic
   - idna
   - pip:
-    - './async_timeout-4.0.3-py3-none-any.whl'
+    - './wheels/async_timeout-4.0.3-py3-none-any.whl'
     - charset-normalizer
     - jsonpath-ng
     - ipycanvas
     - jupyterlab-visualpython
     - python-dotenv
-    - './multidict-6.0.4-py3-none-any.whl'
-    - './tornado-6.3.3-py3-none-any.whl'
-    - './frozenlist-1.4.0-py3-none-any.whl'
-    - './aiohttp-3.8.5-py3-none-any.whl'
+    - './wheels/multidict-6.0.4-py3-none-any.whl'
+    - './wheels/tornado-6.3.3-py3-none-any.whl'
+    - './wheels/frozenlist-1.4.0-py3-none-any.whl'
+    - './wheels/aiohttp-3.8.5-py3-none-any.whl'
     - langchain==0.0.309
-    - './jupyter_ai_magics-2.2.0-py3-none-any.whl'
-    - './jupyter_ai_monorepo-2.2.0-py3-none-any.whl'
-    - './guidance-0.0.64-py3-none-any.whl'
+    - './wheels/jupyter_ai_magics-2.2.0-py3-none-any.whl'
+    - './wheels/jupyter_ai_monorepo-2.2.0-py3-none-any.whl'
+    - './wheels/guidance-0.0.64-py3-none-any.whl'
     - AzureOpenAI
     - OpenAI
     - chapyter
     - jupyter_ai
     - nest_asyncio
-    - './yarl-1.9.2-py3-none-any.whl'
+    - './wheels/yarl-1.9.2-py3-none-any.whl'
   # - multidict
   # - tornado
   # - aiohttp
