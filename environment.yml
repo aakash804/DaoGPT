@@ -16,6 +16,7 @@ dependencies:
   - tenacity
   - pydantic
   - idna
+  - requests
   # - pip:
   #   - './wheels/async_timeout-4.0.3-py3-none-any.whl'
   #   - charset-normalizer
