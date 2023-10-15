@@ -27,14 +27,14 @@ dependencies:
     - jupyterlab-visualpython
     - jsonpath-ng
     - nest_asyncio
-    - './wheels/*.whl'
-    # - './wheels/multidict-6.0.4-py3-none-any.whl'
-    # - './wheels/tornado-6.3.3-py3-none-any.whl'
-    # - './wheels/frozenlist-1.4.0-py3-none-any.whl'
-    # - './wheels/aiohttp-3.8.5-py3-none-any.whl'
-    - langchain==0.0.309
-    # - './wheels/jupyter_ai_magics-2.2.0-py3-none-any.whl'
-    # - './wheels/jupyter_ai_monorepo-2.2.0-py3-none-any.whl'
+    # - './wheels/*.whl' does NOT work
+    - './wheels/multidict-6.0.4-py3-none-any.whl'
+    - './wheels/tornado-6.3.3-py3-none-any.whl'
+    - './wheels/frozenlist-1.4.0-py3-none-any.whl'
+    - './wheels/aiohttp-3.8.5-py3-none-any.whl'
+    - langchain
+    # - './wheels/jupyter_ai_magics-2.3.0-py3-none-any.whl'
+    # - './wheels/jupyter_ai-2.3.0-py3-none-any.whl'
     # - './wheels/guidance-0.0.64-py3-none-any.whl'
     # - './wheels/yarl-1.9.2-py3-none-any.whl'
     - AzureOpenAI
